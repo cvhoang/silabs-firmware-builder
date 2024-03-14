@@ -22,7 +22,7 @@ env:
 jobs:
   build-container:
     name: Create build container image
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     permissions:
       packages: write
     outputs:
