@@ -57,7 +57,7 @@ on:
 jobs:
   firmware-build:
     name: Build firmware
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     container:
       image: ${{ inputs.image_name }}
       options: --user root
